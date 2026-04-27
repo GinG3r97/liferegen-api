@@ -1,0 +1,14 @@
+{
+  "name": "liferegen-integration",
+  "version": "1.0.0",
+  "description": "Shopify Plus to LifeRegen 3PL middleware integration",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "get-token": "node scripts/get-shopify-token.js"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "axios": "^1.7.0"
+  }
+}
